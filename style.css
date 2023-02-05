@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Open+Sans:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1440px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    background: hsl(212, 45%, 89%);
+}
+
+img {
+    border-radius: 10px;
+}
+
+.img {
+    margin: 0;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.box-img {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 250px;
+    height: 400px;
+    padding: 20px;
+    background: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+span {
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    font-size: 18px;
+}
+
+p {
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 20px;
+    color: hsl(220, 15%, 55%);
+}
